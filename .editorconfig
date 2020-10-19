@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# S1123: "Obsolete" attributes should include explanations
+dotnet_diagnostic.S1123.severity = none
+
+# S3925: "ISerializable" should be implemented correctly
+dotnet_diagnostic.S3925.severity = silent

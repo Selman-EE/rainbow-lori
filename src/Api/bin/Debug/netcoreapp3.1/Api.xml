@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.BlockingController.BlockUser(Application.Model.Request.BlockUserReq)">
+            <summary>
+            Returns true if user will blocked
+            </summary>
+            <response code="200">Returns true if user will blocked</response>
+            <response code="400">Some fields not in valid format</response>        
+        </member>
+        <member name="M:Api.Controllers.BlockingController.BlockRemoval(Application.Model.Request.BlockUserReq)">
+            <summary>
+            Returns true if user block will remove
+            </summary>
+            <response code="200">Returns user block from blocking list</response>
+            <response code="400">Some fields not in valid format</response>        
+            [ProducesResponseType(typeof(Result), StatusCodes.Status200OK)]
+        </member>
+        <member name="M:Api.Controllers.IdentityController.Register(Application.Model.Request.UserReq)">
+            <summary>
+            Returns new registered account
+            </summary>
+            <response code="200">Returns new registered account</response>
+            <response code="400">Some fields not in valid format</response>        
+        </member>
+        <member name="M:Api.Controllers.IdentityController.Login(Application.Model.Request.LoginReq)">
+            <summary>
+            Returns new registered account
+            </summary>
+            <response code="200">Returns new registered account</response>
+            <response code="400">Some fields not in valid format</response>        
+            <response code="404">There is no data</response>        
+        </member>
+        <member name="M:Api.Controllers.MessageController.StartChat">
+            <summary>
+            start conversation
+            </summary>
+            <response code="200">Returns new chat id</response>
+        </member>
+        <member name="M:Api.Controllers.MessageController.GetMessages(System.String,System.Int32,System.Int32)">
+            <summary>
+            old message in chat
+            </summary>
+            <response code="200">Returns old messages</response>
+        </member>
+        <member name="M:Api.Controllers.MessageController.SendMessage(System.String,Application.Model.Request.MessageReq)">
+            <summary>
+            send message in chat
+            </summary>
+            <response code="200">Returns true if message sent it</response>
+        </member>
+    </members>
+</doc>

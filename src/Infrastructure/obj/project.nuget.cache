@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lqkJac4NQ0mfeC3Dn12r54Ee2/GQrR7OviaEftxQhF34rM+oVxzcptA4+s+QbC4eVZy2UW8o3UV6qTphz6sZrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\See\\Desktop\\RainbowLori\\RainbowLori\\src\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\See\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\See\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

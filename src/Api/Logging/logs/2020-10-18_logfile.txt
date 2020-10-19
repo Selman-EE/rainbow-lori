@@ -1,0 +1,20 @@
+2020-10-18 18:56:41.2236 INFO New User Registered email:
+
+2020-10-18 19:51:48.7828 INFO New User Registered email:seet@gmail.com
+
+2020-10-18 19:52:06.0048 INFO New User Registered email:
+
+2020-10-18 21:08:56.2357 INFO New User Registered email:seet@gmail.com
+
+2020-10-18 23:02:32.2220 INFO Login - email:
+
+2020-10-18 23:18:52.3492 ERROR Something went wrong: Unable to resolve service for type 'Application.Service.Interfaces.IMessageService' while attempting to activate 'Api.Controllers.MessageController'.
+System.InvalidOperationException: Unable to resolve service for type 'Application.Service.Interfaces.IMessageService' while attempting to activate 'Api.Controllers.MessageController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
