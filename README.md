@@ -1,6 +1,6 @@
 # rainbow-lori
-This is the sample chat api 
+This is the sample image resizer
 
 # Techs
-.NET Core , EF Core ,JWT, NLog, Swagger , Fluent Validation , Docker 
+.NET Core MVC  
 
